@@ -1,4 +1,4 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?>;
+<?xml version="1.0" encoding="UTF-8"?>;
 <Response>
 	<Gather action='process.php' numDigits='1'>
 		<Say>Welcome to Bryant's test Number</Say>
@@ -9,17 +9,17 @@
 
 	<Say>Sorry, I didn't get your response</Say>
 	<redirect>test.xml</redirect>
-</Response> -->
+</Response>
 
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Gather action="handle-user-input.php" numDigits="1">
         <Say>Welcome to Bryant's test</Say>
         <Say>For store hours, press 1.</Say>
         <Say>To speak to an agent, press 2.</Say>
         <Say>To check your package status, press 3.</Say>
-    </Gather>
+    </Gather> -->
     <!-- If customer doesn't input anything, prompt and try again. -->
-    <Say>Sorry, I didn't get your response.</Say>
+   <!--  <Say>Sorry, I didn't get your response.</Say>
     <Redirect>handle-incoming-call.xml</Redirect>
-</Response>
+</Response> -->

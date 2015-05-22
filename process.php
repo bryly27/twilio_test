@@ -3,26 +3,26 @@
 	echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
 
-<response>
+<Response>
 <?php  
 	
 			$user_pushed = (int) $_REQUEST['Digits'];
 
 			if($user_pushed === 1)
 			{ ?>
-				<say>You are cool</say>
+				<Say>You are cool</Say>
 <?php	}
 			elseif($user_pushed === 2)
 			{ ?>
-				<say>You are hot</say>
+				<Say>You are hot</Say>
 <?php	}
 			elseif($user_pushed === 3)
 			{ ?>
-				<say>You are warm</say>
+				<Say>You are warm</Say>
 <?php	}
 			else
 			{ ?>
-				<say>please enter a valid number</say>
-				<redirect>test.php</redirect>
+				<Say>please enter a valid number</Say>
+				<Redirect>test.php</Redirect>
 <?php	} ?>
-</response>
+</Response>

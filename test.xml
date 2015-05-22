@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Gather action="handle-user-input.php" numDigits="1">
+    <Gather action="process.php" numDigits="1">
         <Say>Welcome to Bryant's Test site</Say>
         <Say>If you are cool, press 1</Say>
         <Say>If you are hot, press 2.</Say>

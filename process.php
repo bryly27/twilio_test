@@ -10,15 +10,15 @@
 
 			if($user_pushed === 1)
 			{ ?>
-				<Say>You are cool</Say>
+				<Say>You are cool. ha ha ha just kidding.</Say>
 <?php	}
 			elseif($user_pushed === 2)
 			{ ?>
-				<Say>You are hot</Say>
+				<Say>You are hot. ha ha ha just kidding.</Say>
 <?php	}
 			elseif($user_pushed === 3)
 			{ ?>
-				<Say>You are warm</Say>
+				<Say>You are warm. ha ha ha just kidding.</Say>
 <?php	}
 			else
 			{ ?>

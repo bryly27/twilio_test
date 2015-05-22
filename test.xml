@@ -8,5 +8,5 @@
 	</Gather>
 
 	<Say>Sorry, I didn't get your response</Say>
-	<redirect>test.php</redirect>
+	<redirect>test.xml</redirect>
 </Response>

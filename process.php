@@ -3,7 +3,7 @@
 ?>
 
 <?xml version="1.0" encoding="UTF-8"?>;
-
+<response>
 <?php  
 	
 			$user_pushed = (int) $_REQUEST['Digits'];
@@ -25,3 +25,4 @@
 				<say>please enter a valid number</say>
 				<redirect>test.php</redirect>
 <?php	} ?>
+</response>
